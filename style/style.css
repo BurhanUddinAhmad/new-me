@@ -106,3 +106,87 @@ header {
     color: var(--pointClor);
     line-height: 2.2rem;
 }
+
+/* Start Plan Section */
+#plan h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.plans-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.single-plan {
+    flex-basis: 25%;
+    text-align: center;
+}
+.single-plan .icon img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+.single-plan h3 {
+    color: var(--hdlineClor);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.single-plan p {
+    color: var(--pointClor);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Start Call Section */
+.call-contents {
+    background: url('../images/gradient1.png') no-repeat, url('../images/watch.png') no-repeat;
+    background-position: center center;
+    background-size: cover, cover;
+    padding: 4rem;
+    border-radius: .5rem;
+}
+.call-contents h1 {
+    font-size: 2.8rem;
+    width: 40rem;
+}
+
+/* Start Footer Area */
+footer {
+    margin-top: 10rem;
+    background: var(--footerBg);
+    padding: 10rem 0;
+}
+.footer-contents {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contents h3 {
+    color: var(--fntClor);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.social-contacts {
+    flex-basis: 40rem;
+}
+.social-contacts p a {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.subscribe {
+    width: 20rem;
+}
+.subscribe input {
+    display: block;
+    background: var(--footerBg);
+    color: var(--fntClor);
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    outline: none;
+    border: .1rem solid #7a7a7a;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+.subscribe .btn button {
+    background: var(--btn2Clor);
+    color: var(--fntClor);
+}
