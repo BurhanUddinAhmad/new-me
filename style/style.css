@@ -1,6 +1,50 @@
 /* Default style */
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;500;700&display=swap');
 * {
     margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
     font-size: 62.5%;
+    --bgClor: #fff;
+    --fntClor: #fff;
+    --btnClor: #fff;
+    --btn2Clor: #005FAC;
+    --btnText: #005FAC;
+    --btnHover: #f2f2f2;
+    --pointClor: #737272;
+    --hdlineClor: #000;
+    --footerBg: #000;
+}
+.container {
+    width: 71.25%;
+    max-width: 114rem;
+    margin: 0 auto;
+}
+section {
+    margin: 5rem 0;
+}
+.btn button {
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+    background: var(--btnClor);
+    color: var(--btnText);
+}
+h1 {
+    font-size: 3.5rem;
+    color: var(--fntClor);
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+h2 {
+    font-size: 2.5rem;
+    color: var(--hdlineClor);
+    margin-bottom: 2rem;
+}
+p {
+    font-size: 1.4rem;
+    color: var(--fntClor);
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
 }
