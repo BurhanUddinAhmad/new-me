@@ -10,7 +10,7 @@
     --btn2Clor: #005FAC;
     --btnText: #005FAC;
     --btnHover: #f2f2f2;
-    --pointClor: #737272;
+    --pointClor: #444343;
     --hdlineClor: #000;
     --footerBg: #000;
 }
@@ -20,7 +20,7 @@
     margin: 0 auto;
 }
 section {
-    margin: 5rem 0;
+    margin-top: 10rem;
 }
 .btn button {
     outline: none;
@@ -71,4 +71,38 @@ header {
 .banner-content {
     width: 40%;
     text-align: right;
+}
+/* ==== start Failure section ====== */
+.failure-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5rem;
+}
+.failure-content .pic {
+    flex-basis: 40rem;
+    height: 46rem;
+}
+.failure-content .pic img {
+    width: 100%;
+    height: 100%;
+}
+.failure-content .points {
+    flex-basis: 45%;
+}
+.failure-content .points h2 {
+    width: 50%;
+}
+.failure-content .points p {
+    color: var(--pointClor);
+    width: 70%;
+}
+.failure-content .points ul {
+    list-style-position: inside;
+}
+.failure-content .points ul li {
+    font-size: 1.4rem;
+    color: var(--pointClor);
+    line-height: 2.2rem;
 }
