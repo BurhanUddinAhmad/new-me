@@ -26,10 +26,15 @@ section {
     outline: none;
     border: none;
     border-radius: .5rem;
-    padding: 1.5rem 2rem;
+    padding: 1.2rem 2rem;
     font-size: 1.6rem;
     background: var(--btnClor);
     color: var(--btnText);
+    transition: .3s ease;
+}
+.btn button:hover {
+    background: var(--btnHover);
+    cursor: pointer;
 }
 h1 {
     font-size: 3.5rem;
@@ -47,4 +52,23 @@ p {
     color: var(--fntClor);
     line-height: 2.4rem;
     margin-bottom: 2rem;
+}
+
+/* Start header */
+header {
+    width: 100%;
+    height: 55rem;
+    background: url('../images/banner/banner3.png') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+.banner {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner-content {
+    width: 40%;
+    text-align: right;
 }
